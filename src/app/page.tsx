@@ -8,7 +8,7 @@ export default function Home() {
 
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const newUrl = `https://blog.electisec.com${pathname}`;
+      const newUrl = `https://blog.yaudit.dev${pathname}`;
       window.location.href = newUrl;
     }
   }, [pathname]);
